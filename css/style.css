@@ -19,6 +19,12 @@ h1{
   text-align: center;
 }
 
+p{
+	font-family: "Apple Chancery", cursive;
+	font-size: 0.9em;
+	text-align: center;
+}
+
 #input-name{
   display: flex;
   margin-bottom: 5%;
