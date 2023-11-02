@@ -1,3 +1,4 @@
+/*mobile-first page design*/
 img{
   width: 100%;
   height: auto;
@@ -72,6 +73,7 @@ input[type="tel"]::placeholder {
 }
 
 #note{
+  text-align: left;
   list-style: none;
   margin-bottom: 5%;
   color: white;
@@ -91,4 +93,33 @@ input[type="tel"]::placeholder {
   background-color: rgb(61, 37, 37);
   color: white;
   font-size: 1.2em;
+}
+
+@media (min-width: 600px) {
+  img{
+    width: 40%;
+    height: auto;
+  }
+  
+  #content{
+  margin: 0 10% 0 10%;
+  padding: 3% 10% 3% 10%;
+  }
+}
+
+@media(min-width: 992px) {
+  img{
+    width: 20%;
+    height: auto;
+  }
+  
+  #content{
+    border-width: 0.5em;
+    margin: 0 30% 0 30%;
+    padding: 3% 3% 3% 3%;
+  }
+  
+  #note{
+    font-size: 0.8em;
+  }
 }
