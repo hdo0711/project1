@@ -26,18 +26,47 @@ p{
 }
 
 #input-name{
+  margin-top: 7%;
   display: flex;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
+  font-family: "Georgia", serif;
+  font-size: 1.1em;
+}
+
+#fname{
+	margin-left: 2%;
+	width: 66%;
+	height: 2em;
 }
 
 #input-email{
   display: flex;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
+  font-family: "Georgia", serif;
+  font-size: 1.1em;
+}
+
+#email{
+  margin-left: 2%;
+  width: 66%;
+  height: 2em;
 }
 
 #input-phone{
   display: flex;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
+  font-family: "Georgia", serif;
+  font-size: 1.1em;
+}
+
+input[type="tel"]::placeholder {  
+  text-align: center;  
+}  
+
+#phone-num{
+  margin-left: 2%;
+  width: 66%;
+  height: 2em;
 }
 
 #note{
