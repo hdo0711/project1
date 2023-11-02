@@ -50,7 +50,7 @@ p{
 }
 
 #email{
-  margin-left: 2.5%;
+  margin-left: 2.2%;
   width: 66%;
   height: 2em;
 }
@@ -67,7 +67,7 @@ input[type="tel"]::placeholder {
 }  
 
 #phone-num{
-  margin-left: 2%;
+  margin-left: 1.8%;
   width: 66%;
   height: 2em;
 }
