@@ -5,7 +5,7 @@ img{
 
 #content{
   margin: 0 5% 0 5%;
-  padding: 3% 5% 3% 5%;
+  padding: 3% 3% 3% 3%;
   border-style: solid;
   border-width: 0;
   border-radius: 0.5em;
@@ -72,6 +72,8 @@ input[type="tel"]::placeholder {
 #note{
   list-style: none;
   margin-bottom: 5%;
+  color: gray;
+  font-size: 0.7em;
 }
 
 #input-submit{
