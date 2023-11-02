@@ -79,3 +79,14 @@ input[type="tel"]::placeholder {
 #input-submit{
   display: flex;
 }
+
+#submit{
+  margin: auto;
+  font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+  padding: 0.3em;
+  border-width: 0;
+  border-radius: 1.5em;
+  background-color: black;
+  color: white;
+  font-size: 1.2em;
+}
