@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/site.js"></script>
+  <title>Coupon Sign Up</title>
+</head>
+
+<body>
+  <main id="content">
+    <form method="get" action="#null">
+      <h1>Coupon Sign Up</h1>
+      <p>Welcome to April’s Nail & Spa!</p>
+	  <p>We are a newly opening nail salon on the corner of W. Touhy and Ridge. Sign up for a 20% off coupon ALL services for your first reservation!</p>
+      <ol>
+	    <li id="input-name">
+	    <label for="fname">Name:</label>
+		<input type="text" id="fname" name="fname">
+	    </li>
+        <li id="input-email">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" pattern="^.+@.+$">
+        </li>
+		<li id="input-phone">
+          <label for="phone-num">Phone number:</label>
+          <input type="tel" name="phone-num" placeholder="(123) 456-7890" id="phone-num" required>
+		</li>
+		<li id="note">Upon submitting this form, you will recieve an email from us with a coupon code attached. You may redeem at the code at our website <a href="https://aprilsnailspa.com/index.html">www.aprilsnailspa.com</a></li>
+        <li id="input-submit">
+         <input type="submit" name="submit" id="submit" value="Subscribe">
+        </li>
+      </ol>
+    </form>
+  </main>
+</body>
+</html>
