@@ -1,5 +1,10 @@
+img{
+  width: 100%;
+  height: auto;
+}
+
 #content{
-  margin: 0 30% 0 30%;
+  margin: 0 5% 0 5%;
   padding: 3% 5% 3% 5%;
   border-style: solid;
   border-width: 0;
