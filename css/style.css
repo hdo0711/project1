@@ -20,21 +20,25 @@ h1{
 }
 
 #input-name{
-	display: flex;
+  display: flex;
+  margin-bottom: 5%;
 }
 
 #input-email{
-	display: flex;
+  display: flex;
+  margin-bottom: 5%;
 }
 
 #input-phone{
-	display: flex;
+  display: flex;
+  margin-bottom: 5%;
 }
 
 #note{
-	display: flex;
+  list-style: none;
+  margin-bottom: 5%;
 }
 
 #input-submit{
-	display: flex;
+  display: flex;
 }
