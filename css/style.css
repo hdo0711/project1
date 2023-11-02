@@ -18,3 +18,23 @@ h1{
   font-size: 3.5em;
   text-align: center;
 }
+
+#input-name{
+	display: flex;
+}
+
+#input-email{
+	display: flex;
+}
+
+#input-phone{
+	display: flex;
+}
+
+#note{
+	display: flex;
+}
+
+#input-submit{
+	display: flex;
+}
